@@ -14,9 +14,22 @@ public class Lunes {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static VentanaLogin ventanaLogin = null;
+    
+    
         // TODO code application logic here
-       System.out.println("hola mundo");
+    public static void main(String[] args){
+        ventanaLogin = new VentanaLogin();
+        iniciar();
     }
     
-}
+    public static void iniciar(){
+        ventanaLogin.setVisible(true);
+    }
+    
+       
+      
+       
+    }
+    
+
