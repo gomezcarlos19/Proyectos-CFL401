@@ -21,12 +21,22 @@ public class Lunes {
     public static void main(String[] args){
         ventanaLogin = new VentanaLogin();
         iniciar();
+     
+        
     }
     
     public static void iniciar(){
         ventanaLogin.setVisible(true);
-    }
+        
     
+    }
+    public static void mostrar(){
+      PersonaCorta per1 = new PersonaCorta("Juan","Perez",28);
+     PersonaCorta per2 = new PersonaCorta("Marta","Lopez",38);
+     PersonaCorta per3 = new PersonaCorta("Pepe","Argento",59);
+     System.out.println (per1.getNombre());
+     System.out.println(per2.getNombre());  
+    }
        
       
        
